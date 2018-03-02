@@ -1,0 +1,52 @@
+.container {
+  position: relative;
+}
+
+#logo {
+  position: absolute;
+  top: 100px;
+  left: 680px;
+  display: block;
+}
+
+#textbox {
+  width: 560px;
+  height: 40px;
+  position: absolute;
+  top: 350px;
+  left: 680px;
+  box-shadow: 1px 3px #ccc;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+#mic {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 355px;
+  left: 1210px;
+  z-index: 5;
+}
+
+.button {
+  position: absolute;
+  top: 425px;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+.srch {
+  left: 680px;
+}
+
+.luck {
+  right: 680px;
+}
+
+.offr {
+  position: absolute;
+  top: 480px;
+  left: 860px;
+}
