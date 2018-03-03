@@ -177,6 +177,7 @@ ul {
 
 .left {
   text-align: left;
+  border-top: 1px #e6e6e6 solid;
 }
 
 .priv, .term, .set {
