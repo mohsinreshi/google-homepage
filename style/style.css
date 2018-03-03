@@ -16,7 +16,7 @@
   top: 350px;
   left: 680px;
   box-shadow: 1px 3px #ccc;
-  border: 1px solid #ccc;
+  border: 1px solid #f2f2f2;
   padding: 2px;
 }
 
@@ -31,7 +31,7 @@
 
 .button {
   position: absolute;
-  top: 420px;
+  top: 430px;
   border: 1px solid #f2f2f2;
   padding: 0px 16px;
   text-align: center;
@@ -58,6 +58,22 @@
 
 .offr {
   position: absolute;
-  top: 480px;
-  left: 860px;
+  top: 490px;
+  left: 720px;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  color: #222;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#square {
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: -132px -38px;
+  opacity: 0.5;
 }
