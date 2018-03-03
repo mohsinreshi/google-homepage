@@ -25,24 +25,35 @@
   width: 35px;
   height: 35px;
   top: 355px;
-  left: 1210px;
+  left: 1205px;
   z-index: 5;
 }
 
 .button {
   position: absolute;
-  top: 425px;
-  border: 1px solid #ccc;
-  padding: 6px 10px;
+  top: 420px;
+  border: 1px solid #f2f2f2;
+  padding: 0px 16px;
   text-align: center;
+  height: 36px;
+  background-color: #f2f2f2;
+  color: #757575;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.button:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
 }
 
 .srch {
-  left: 680px;
+  left: 845px;
 }
 
 .luck {
-  right: 680px;
+  right: 777px;
 }
 
 .offr {
