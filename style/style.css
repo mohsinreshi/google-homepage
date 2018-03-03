@@ -67,7 +67,22 @@
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+ li {
+   display: inline;
+ }
+
+ .uppernav {
+   position: relative;
+   height: 40px;
+   top: -80px;
+   right: 20px;
+   text-align: right;
+ }
+
+
 
 #square {
   background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
@@ -76,4 +91,51 @@ ul {
   height: 30px;
   background-position: -132px -38px;
   opacity: 0.5;
+  position: relative;
+  top: 10px;
+}
+
+#square:hover {
+  opacity: 1;
+}
+
+#square, #sign, .mail, .image {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+#sign {
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  border: 0;
+  background-color: #4285f4;
+  padding: 8px 13px;
+  border-radius: 2px;
+}
+
+#square, .mail, .image {
+  font-size: small;
+  color: rgba(0,0,0,0.87);
+}
+
+.mail:hover {
+  text-decoration: underline;
+}
+
+.image:hover {
+  text-decoration: underline;
+}
+
+.deu, .ad, .bus, .abo, .priv, .term, .set {
+  text-decoration: none;
+  color: #1a0dab;
+  font-family: Arial, sans-serif;
+  font-size: small;
+}
+
+.deu:hover {
+  text-decoration: underline;
 }
